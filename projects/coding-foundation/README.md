@@ -1,1 +1,1 @@
-This is a coding fundation exercise. 
+This is a coding foundation exercise. 
