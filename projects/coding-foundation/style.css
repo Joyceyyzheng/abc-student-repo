@@ -1,22 +1,31 @@
 body{
-  background-color: #8feeff;
+  background-color: black;
 }
 
-#number{
+#inputNum{
   position: absolute;
   left: 500px;
   top: 200px;
 }
 
-#button{
+#bt{
   cursor: pointer;
   position: absolute;
   left: 650px;
   top: 200px;
   font-size: 15px;
+
 }
 
-#jump{
+/* #flex-container{
+  display: flex;
+  background-color: grey;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+ */
+
+#flex{
   display: flex;
   position: absolute;
   top: 300px;
@@ -26,9 +35,9 @@ body{
   flex-direction: row;
 }
 
-.jump-item{
+.flex-item{
 /* background: black; */
-background-image: url(duck.jpeg);
+background-image: url(cat.jpeg);
 background-size: 100%;
  padding: 5px;
  width: 50px;
