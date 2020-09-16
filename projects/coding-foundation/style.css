@@ -1,50 +1,47 @@
 body{
-  
+
   background-image:url('duckling.png');
 }
 
 #Number{
 
-  left: 500px;
-  top: 200px;
-  margin:100px;
+  top:100px;
+  margin-left:600px;
+  margin-right:50px;
+
 }
 
 #button{
-  /*--cursor: pointer;*/
 
-  left: 650px;
-  top: 200px;
   font-size: 15px;
-  margin:100px;
+  margin-top:100px;
+  margin-left: 1px;
+  color:#00c9b2;
 
 }
 
-/* #flex-container{
+
+#flex{
+
+
   display: flex;
-  background-color: grey;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
- */
-
-#box{
-  /*display: flex;*/
   position: absolute;
   top: 300px;
   left: 100px;
   right: 100px;
-/*  flex-wrap: wrap;
-  flex-direction: row;*/
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-right:10px;
+  justify-content: space-around;
+
 }
 
-.box-item{
-/* background: black; */
-background-image:url('duckling.png');
-background-size: 100%;
- padding: 5px;
+.flex-item{
+ background-image:url('duckling.png');
+ background-size: 100%;
+ padding: 20px;
  width: 50px;
- height: 50px;
- margin: 10px;
- line-height: 50px;
+ height: 38px;
+
+ line-height: 38px;
 }
